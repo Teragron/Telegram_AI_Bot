@@ -1,0 +1,61 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "Nasılsın", "Naber", "Selam","Günaydın", "napıyon", "nasılsın", "selam", "merhaba"],
+         "responses": ["Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim"],
+         "context_set": ""
+        },
+        {"tag": "ayrilma",
+         "patterns": ["by", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay", "görüşmek üzere", "bye"],
+         "responses": ["görüşürüz:(", "tekrar konuşmak üzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine öğrenmesini anlatabilir misin","Derin öğrenme nedir","Beni yapay zeka hakkinda bilgilendir", "yapay zeka ne?"],
+          "responses": [ "Matematiksel ve istatistiksel yöntemler kullanarak mevcut verilerden çıkarımlar yapmayı sağlayan bir metod","makinelerin dünyayı ele geçirme planları"],
+         "context_set": ""
+        },
+        {"tag": "learn",
+         "patterns": ["Veri Bilimini nasıl öğrenebilirim", "Yapay zeka öğrenmeye nereden başlayabilirim", "Derin Öğrenme içi hangi kitaplar okunmalı"],
+         "responses": ["Online kurslar ile öğrenebilirsiniz","Deep Learning with python kitabını okuyabilirsiniz"],
+         "context_set": ""
+        },
+        {"tag": "saat",
+         "patterns": ["saat kaç", "saati şöyle", "saati öğrenebilir miyim?", "saatten haberin var mı?", "bana saati söyler misin?", "zaman çok çabuk geçti galiba"],
+         "responses": ["saatin kac oldugunu bilmiyorum","hayir ogrenemezsin"],
+         "context_set": ""
+        },
+            {"tag": "lamba",
+             "patterns": ["lambayı aç", "lambayı açar mısın", "lambayı yakar mısın", "ışığı açar mısın?", "ışığı aç", "ışığı yakar mısın?"],
+             "responses": ["tamam yakiyorum","peki aciyorum"],
+             "context_set": ""
+            },
+            
+        {"tag": "isimsorma",
+         "patterns": ["adın ne?", "selam adın ne?", "ismin nedir?", "Bana ismini söyler misin?", "ismin ne?", "adınızı öğrenebilir miyim?", "ismini söyler misin?"],
+         "responses": ["Merhaba ismin Teragron Bot", "Selam ben Teragron Bot", "Ben Teragron Bot"],
+         "context_set": ""
+        },
+        {"tag": "foto",
+         "patterns": ["Bana rastgele bir fotograf atar misin?", "Bir tane foto gösterir misin?","Bir görsel görmek istiyorum","Bana bir resim atsana", "Benle resim paylaşır mısın?"],
+          "responses": [ "atiyorum","peki paylasiyorum"],
+         "context_set": ""
+        },
+        {"tag": "kepenkac",
+         "patterns": ["Kepengi acar misin?", "Kepengi acar misin", "Benim için kepengi açsana"],
+         "responses": ["aciyorum kepengi","Kepengi hemen aciyorum"],
+         "context_set": ""
+        },
+        {"tag": "filmtavsiye",
+         "patterns": ["Bana bir film tavsiye eder misin?", "Bir film öner", "Benim icin bir film secer misin?", "Film önerir misin?"],
+         "responses": ["öneriyorum","taman öneriyorum"],
+         "context_set": ""
+        },
+            {"tag": "kapiac",
+             "patterns": ["kapıyı aç", "kapıyı açar mısın", "kapıyı açar mısın?", "kapıyı açmama yardım eder misin?", "kapıyı açsan olur mu?"],
+             "responses": ["tamam aciyorum","peki aciyorum"],
+             "context_set": ""
+            }
+            
+            
+ ]
+}
