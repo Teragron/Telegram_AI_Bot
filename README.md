@@ -1,18 +1,33 @@
-# Telegram_AI_Bot
+# Telegram AI Bot
 
-## Tasks
+This is a Telegram AI bot that uses natural language processing to understand user messages and provide relevant information and assistance.
 
-- Basic Communication
-- Getting Crypto Currency Information
-- Getting weather Information for any city
-- Suggesting movie from different genres
-- !Get me some random photos
+## Features
 
-## Advantage over other Telegram Bots
+- Basic communication
+- Getting cryptocurrency information
+- Getting weather information for any city
+- Suggesting movies from different genres
+- Getting random photos
 
-Since i trained the model have a vast and general understanding about intents, the Chatbot is able to attribute from given context. 
+## Advantage over other Telegram bots
 
-## Using the bot 7/24
+Since the AI model used by this chatbot has been trained on a large corpus of text data, it is able to understand the context of user messages and provide more relevant responses than many other Telegram bots.
 
-If the bot is uploaded on a running server, it can be easily accessed from anywhere. (pythonanywhere, AWS or Google)
+## Using the bot 24/7
+
+The bot can be easily accessed from anywhere by uploading it to a running server, such as pythonanywhere, AWS, or Google.
+
+## Requirements
+
+- Python 3.9 or later
+- Keras
+- TensorFlow
+- NLTK
+- requests
+
+## Usage
+
+To use the bot, simply send a message on Telegram and the bot will respond with the appropriate information or assistance.
+
 
