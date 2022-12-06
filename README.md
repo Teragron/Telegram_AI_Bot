@@ -29,7 +29,6 @@ The bot can be easily accessed from anywhere by uploading it to a running server
 ## Usage
 
 
-
 To install the required dependencies, run the following command:
 
 <pre>
@@ -38,3 +37,10 @@ pip install -r requirements.txt
 
 To use the bot, simply send a message on Telegram and the bot will respond with the appropriate information or assistance.
 
+## Running the script
+
+To run the script, use the following command:
+
+<pre>
+python main.py
+</pre>
