@@ -44,3 +44,8 @@ To run the script, use the following command:
 <pre>
 python main.py
 </pre>
+
+
+## Disclaimer
+
+The information provided in this repository is for general informational purposes only. We make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information, products, services, or related graphics contained in this repository for any purpose. Any reliance you place on such information is strictly at your own risk.
