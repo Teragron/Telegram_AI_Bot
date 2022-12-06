@@ -12,7 +12,7 @@ This is a Telegram AI bot that uses natural language processing to understand us
 
 ## Advantage over other Telegram bots
 
-Since the AI model used by this chatbot has been trained on a large corpus of text data, it is able to understand the context of user messages and provide more relevant responses than many other Telegram bots.
+Since the AI model used by this chatbot has been trained on a corpus of text data, it is able to understand the context of user messages and provide more relevant responses than many other Telegram bots.
 
 ## Using the bot 24/7
 
