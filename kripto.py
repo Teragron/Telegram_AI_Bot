@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Apr 30 01:46:37 2022
-
-@author: ahmet
-"""
-
 symbols = [["bitcoin","BTC"],
              ["ethereum","ETH"],
              ["tether","USDT"],
