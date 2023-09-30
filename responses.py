@@ -16,7 +16,7 @@ from kripto import *
 
 moviestemp = []
 
-with open(r"C:\Users\\ahmet\Desktop\\telebot\necess\movies.csv", 'r') as file:
+with open("movies.csv", 'r') as file:
     reader = csv.reader(file, delimiter = '\t', skipinitialspace=True)
     for row in reader:
         moviestemp.append(row[0])
@@ -34,10 +34,10 @@ for i in moviestemp:
 api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
-with open(r"C:\Users\\ahmet\Desktop\\telebot\corpusyedek.json", encoding='utf-8') as file:
+with open("corpusyedek.json", encoding='utf-8') as file:
     data = json.load(file)
     
-with open(r"C:\Users\\ahmet\Desktop\\telebot\world-cities.json", encoding='utf-8') as file:
+with open("world-cities.json", encoding='utf-8') as file:
     sehir = json.load(file)
     
 sehirler = []
